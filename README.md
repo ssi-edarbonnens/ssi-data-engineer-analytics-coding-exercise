@@ -1,5 +1,7 @@
 # ssi-data-engineer-analytics-coding-exercise
-SSI Coding Exercise for a Data Engineer role
+**SSI Coding Exercise for a Data Engineer role**
+
+***
 
 Given a raw data source stored in AWS S3, semi-structured (JSON) based on email elements/ threads and email contacts, we want to make it available to query through AWS Athena.
 We would like AWS Glue to crawl the raw data and transform it to an enriched format (like Parquet) to be queried by AWS Athena, so a Python/ PySpark script is required to do the transformation jobs and build only one big table.
