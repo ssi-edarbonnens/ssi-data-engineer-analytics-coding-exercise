@@ -1,0 +1,14 @@
+{
+    "recipients": [
+        {
+            "recipient_id": "urn:li:person:a1b2c3d4d5",
+            "recipient_name": "John Doe",
+            "createdAt": 1486428775129
+        },
+        {
+            "recipient_id": "urn:li:seat:123456789",
+            "recipient_name": "Jane Doe",
+            "createdAt": 1486428775130
+        }
+    ]
+}

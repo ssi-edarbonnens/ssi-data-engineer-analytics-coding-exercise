@@ -1,0 +1,52 @@
+AWSTemplateFormatVersion: 2010-09-09
+Parameters:
+    {}
+Resources:
+    DataCatalog:
+        Type: 'AWS::Glue::Database'
+        Properties: {}
+    ClassifierEmails:
+        Type: 'AWS::Glue::Classifier'
+        Properties: {}
+    ClassifierProfiles:
+        Type: 'AWS::Glue::Classifier'
+        Properties: {}
+    CrawlerEmails:
+        Type: 'AWS::Glue::Crawler'
+        Properties: {}
+    CrawlerProfiles:
+        Type: 'AWS::Glue::Crawler'
+        Properties: {}
+    CrawlerTransformed:
+        Type: 'AWS::Glue::Crawler'
+        Properties: {}
+    CrawlerEnriched:
+        Type: 'AWS::Glue::Crawler'
+        Properties: {}
+    GlueJobRawToTransformed:
+        Type: 'AWS::Glue::Job'
+        Properties: {}
+    GlueJobTransformedToEnriched:
+        Type: 'AWS::Glue::Job'
+        Properties: {}
+    TriggerRawDataToTransformed:
+        Type: 'AWS::Glue::Trigger'
+        Properties: {}
+    TriggerFetchTransformedDataToCrawler:
+        Type: 'AWS::Glue::Trigger'
+        Properties: {}
+    TriggerTransformedDataToEnriched:
+        Type: 'AWS::Glue::Trigger'
+        Properties: {}
+    TriggerFetchEnrichedDataToCrawler:
+        Type: 'AWS::Glue::Trigger'
+        Properties: {}
+    GlueProjectWorkflow:
+        Type: 'AWS::Glue::Workflow'
+        Properties: {}
+    S3BucketData:
+        Type: 'AWS::S3::Bucket'
+        Properties: {}
+    AthenaQuery:
+        Type: 'AWS::Athena::NamedQuery'
+        Properties: {}

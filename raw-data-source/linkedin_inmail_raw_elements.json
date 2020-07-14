@@ -1,0 +1,101 @@
+{
+   "elements": [
+        {
+            "author": "urn:li:seat:123456789",
+            "content": {
+                "com.linkedin.messaging.events.MailContent": {
+                    "body": {
+                        "text": "Test response complete."
+                    },
+                    "subject": "RE: Testing Stub Profile"
+                }
+            },
+            "createdAt": 1486428775129,
+            "id": "I6234554148858486784_1000",
+            "recipients": [
+                "urn:li:person:a1b2c3d4d5"
+            ],
+            "threadUrn": "urn:li:messagingThread:6234532054298611712"
+        },
+        {
+            "author": "urn:li:person:a1b2c3d4d5",
+            "content": {
+                "com.linkedin.messaging.events.MailContent": {
+                    "body": {
+                        "text": "Responding to test v2."
+                    },
+                    "subject": "RE: Testing Stub Profile"
+                }
+            },
+            "createdAt": 1486428775229,
+            "id": "I6234554148858486784_1000",
+            "recipients": [
+                "urn:li:seat:123456789"
+            ],
+            "threadUrn": "urn:li:messagingThread:6234532054298611712"
+        },
+        {
+            "author": "urn:li:seat:123456789",
+            "content": {
+                "com.linkedin.messaging.events.MailContent": {
+                    "body": {
+                        "text": "Update test v2 complete."
+                    },
+                    "subject": "RE: Testing Stub Profile"
+                }
+            },
+            "createdAt": 1486428775329,
+            "id": "I6234544148858486784_1000",
+            "recipients": [
+                "urn:li:person:a1b2c3d4d5"
+            ],
+            "threadUrn": "urn:li:messagingThread:6234532054298611712"
+        },
+        {
+            "author": "urn:li:person:a1b2c3d4d5",
+            "content": {
+                "com.linkedin.messaging.events.MailContent": {
+                    "body": {
+                        "text": "Test v2 complete."
+                    },
+                    "subject": "RE: Testing Stub Profile"
+                }
+            },
+            "createdAt": 1486428775429,
+            "id": "I6234534148858486784_1000",
+            "recipients": [
+                "urn:li:seat:123456789"
+            ],
+            "threadUrn": "urn:li:messagingThread:6234532054298611712"
+        },
+        {
+            "author": "urn:li:seat:123456789",
+            "content": {
+                "com.linkedin.messaging.events.MailContent": {
+                    "body": {
+                        "text": "Dear testFirst, \n\nTesting Stub Profile v2\n\n"
+                    },
+                    "subject": "Testing Stub Profile"
+                }
+            },
+            "createdAt": 1486428775529,
+            "id": "S6234533985997901824_1000",
+            "recipients": [
+                "urn:li:person:a1b2c3d4e5"
+            ],
+            "threadUrn": "urn:li:messagingThread:6234532054298611712"
+        }
+    ],
+   "paging": {
+        "count": 5,
+        "links": [
+            {
+                "href": "/v2/conversationEvents?count=5&q=criteria&start=5&viewer=urn%3Ali%3Aseat%3A123456789&timeRange.start=1486428734634",
+                "rel": "next",
+                "type": "application/json"
+            }
+        ],
+        "start": 0,
+        "total": 10
+    }
+}
