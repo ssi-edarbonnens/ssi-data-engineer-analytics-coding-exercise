@@ -50,3 +50,8 @@ Resources:
     AthenaQuery:
         Type: 'AWS::Athena::NamedQuery'
         Properties: {}
+Outputs:
+    S3BucketData:
+        Value: !Ref S3BucketData
+    AthenaQuery:
+        Value: !Ref AthenaQuery
