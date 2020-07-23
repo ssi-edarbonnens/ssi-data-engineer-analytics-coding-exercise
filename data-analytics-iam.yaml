@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: 2010-09-09
+Parameters:
+    {}
+Resources:
+    DataAnalyticsProjectProvisioningServiceRolePolicy:
+        Type: AWS::IAM::ManagedPolicy
+        Properties: {}
+    DataAnalyticsProjectProvisioningServiceRole:
+        Type: AWS::IAM::Role
+        Properties: {}  
+    GlueS3ServiceRolePolicy:
+        Type: AWS::IAM::ManagedPolicy
+        Properties: {}
+    GlueS3ServiceRole:
+        Type: AWS::IAM::Role
+        Properties: {}
+    GlueJobsServiceRolePolicy:
+        Type: AWS::IAM::ManagedPolicy
+        Properties: {}
+    GlueJobsServiceRole:
+        Type: AWS::IAM::Role
+        Properties: {}
